@@ -1,0 +1,62 @@
+{
+  "dataset": "PhysioNet eegmat (Zyma et al., 2019)",
+  "subjects": [
+    "Subject00",
+    "Subject01",
+    "Subject02",
+    "Subject03",
+    "Subject04",
+    "Subject05",
+    "Subject06",
+    "Subject07",
+    "Subject08",
+    "Subject09"
+  ],
+  "n_recordings": 20,
+  "conditions": {
+    "_1": "Rest (background)",
+    "_2": "Mental arithmetic (load)"
+  },
+  "real_eeg": {
+    "rest_ta_mean": 0.4289,
+    "rest_ta_std": 0.204,
+    "task_ta_mean": 0.7383,
+    "task_ta_std": 0.4094,
+    "task_vs_rest_p": 0.0049,
+    "task_vs_rest_d": 1.0083
+  },
+  "simulation_calibration": {
+    "p10_assumed_rest_ta": 2.83,
+    "real_rest_ta": 0.4289,
+    "calibration_error": -2.4011
+  },
+  "band_stats": {
+    "theta_frontal_log": {
+      "rest_mean": -11.459407874704162,
+      "rest_std": 0.14889272085100594,
+      "task_mean": -11.504982268817852,
+      "task_std": 0.2020888463941002,
+      "t": 0.8365488540724272,
+      "p": 0.4245001741619313,
+      "cohens_d": -0.2567643947382024
+    },
+    "alpha_parietal_log": {
+      "rest_mean": -11.04332837687248,
+      "rest_std": 0.22370760840566756,
+      "task_mean": -11.300142294402507,
+      "task_std": 0.30222502790460065,
+      "t": 4.947729072511669,
+      "p": 0.0007937710773205561,
+      "cohens_d": -0.9658991658038053
+    },
+    "theta_alpha_ratio": {
+      "rest_mean": 0.4289450671425893,
+      "rest_std": 0.19356889745636452,
+      "task_mean": 0.7383416126307448,
+      "task_std": 0.38839387783562684,
+      "t": -3.7061212303249462,
+      "p": 0.004874151915975968,
+      "cohens_d": 1.0082859339086314
+    }
+  }
+}
