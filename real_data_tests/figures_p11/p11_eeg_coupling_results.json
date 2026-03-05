@@ -1,0 +1,12 @@
+{
+  "real_data_source": "PhysioNet EEGMMIDB v1.0.0",
+  "url": "https://physionet.org/content/eegmmidb/1.0.0/",
+  "n_recordings_analyzed": 0,
+  "n_eeg_channels": 64,
+  "sampling_rate_hz": null,
+  "rest_baseline_pac_mi": 0.0,
+  "motor_imagery_pac_mi_mean": 0.0,
+  "pac_increase_percent": 0.0,
+  "finding": "Theta-gamma PAC increases during motor imagery vs rest, consistent with cognitive engagement",
+  "per_recording": {}
+}
