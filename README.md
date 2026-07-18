@@ -9,22 +9,32 @@ This repository implements the research pipeline for the **BREAKTHROUGH 08: Cros
 
 ## 📊 Pipeline Architecture
 
-The flowchart below visualizes the methodology and execution sequence implemented in this project:
+The flowchart below visualizes the methodology, code modules, and logical execution sequence of the project:
 
 ```mermaid
 graph TD
-    subgraph Data Engineering
-        A["Raw Input Datasets"] --> B["Data Preprocessing & Normalisation"]
-        B --> C["Feature Engineering & Selection"]
+    subgraph "Phase 1: Environment & System Setup"
+        N0["Ingest & Parse: Cross-Frequency Brain Coupling as Learning Quality Metric"]
+        N1["Background: Brain Oscillations and Memory"]
     end
-    subgraph Model Architecture
-        C --> D["Multi-Model Comparative Training"]
-        D --> E["Validation via Stratified CV"]
-        E --> F["Hyperparameter Tuning & Threshold Optimization"]
+    subgraph "Phase 2: Signal & Core Processing"
+        N2["What Are Brain Oscillations?"]
+        N3["Cross-Frequency Coupling (CFC) — The Secret of Learning"]
+        N4["Bandpass Filter"]
     end
-    subgraph Inference & Metrics
-        F --> G["Final Classification / Regression Performance Reports"]
+    subgraph "Phase 3: Validation & Performance Evaluation"
+        N5["Phase Amplitude Coupling"]
+        N6["Sliding Window Pac"]
+        N7["Simulate Learning Session"]
     end
+    N0 --> N1
+    N1 --> N2
+    N2 --> N3
+    N3 --> N4
+    N4 --> N5
+    N5 --> N6
+    N6 --> N7
+    N7 -->|"Optimize Parameters / Adaptive Loop"| N2
 ```
 
 ---
