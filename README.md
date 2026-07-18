@@ -1,7 +1,7 @@
 # BREAKTHROUGH 08: Cross-Frequency Brain Coupling as Learning Quality Metric
 
 [![License: CC BY-NC-ND 4.0](https://img.shields.io/badge/License-CC%20BY--NC--ND%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-nc-nd/4.0/)
-
+![Eeg](https://img.shields.io/badge/Domain-Eeg-blue) ![Learning](https://img.shields.io/badge/Domain-Learning-blue)
 
 This repository implements the research pipeline for the **BREAKTHROUGH 08: Cross-Frequency Brain Coupling as Learning Quality Metric** project, developed by the Runtime-Slayers research group.
 
@@ -41,7 +41,7 @@ graph TD
 
 ## 🔍 Abstract & Research Context
 
-
+--- # PART A: WHAT IS THIS AND WHY DOES IT MATTER? ## 1. The Idea in Plain English When your brain TRULY learns something (not memorizes — understands), a specific thing happens: the **theta rhythm** (4-8 Hz, like a slow conductor's baton) coordinates bursts of **gamma activity** (30-100 Hz, like fast fingers playing notes). This **theta-gamma coupling** is how your hippocampus binds information into long-term memory. **Your breakthrough**: Create a real-time "Learning Quality Index" (LQI) that uses EEG to measure how well a student is actually learning — not how well they memorize, not how well they test, but how well their brain is forming genuine understanding. This metric could replace exams as the gold standard for measuring education quality. **The devastating finding**: Students who score HIGH on traditional exams often score LOW on LQI (they memorized, didn't learn). Students who score LOW on exams sometimes score HIGH on LQI (they understood deeply, but can't regurgitate under pressure). The exam system measures the WRONG thing.
 
 ---
 
